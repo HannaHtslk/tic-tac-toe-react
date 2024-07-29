@@ -11,7 +11,6 @@ const TicTacToe = () => {
   const [count, setCount] = useState(0);
   const [lock, setLock] = useState(false);
   const [winner, setWinner] = useState(null);
-  const titleRef = useRef(null);
 
   const toggle = (index) => {
     if (lock || data[index]) return;
@@ -51,7 +50,7 @@ const TicTacToe = () => {
 
   const won = (winner) => {
     setLock(true);
-    setWinner(winner); // Set winner state
+    setWinner(winner);
   };
 
   const reset = () => {
