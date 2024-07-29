@@ -1,9 +1,7 @@
-// TicTacToe.js
 import React, { useRef, useState } from "react";
 import Board from "../Board/Board";
 import s from "./TicTacToe.module.css";
-import circle_icon from "../../assets/circle-removebg-preview.png";
-import cross_icon from "../../assets/cross-removebg-preview.png";
+
 import { IoMdHeartEmpty } from "react-icons/io";
 import { RiCloseLargeLine } from "react-icons/ri";
 import { GoCircle } from "react-icons/go";
