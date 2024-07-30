@@ -63,7 +63,7 @@ const TicTacToe = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.container}>
-        <h1 className={s.title} ref={titleRef}>
+        <h1 className={s.title}>
           Tic <IoMdHeartEmpty className={s.icon} />
           Tac <IoMdHeartEmpty className={s.icon} />
           Toe
